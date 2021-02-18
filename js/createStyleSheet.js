@@ -11,6 +11,7 @@ const addStyleSheet = (src) => {
 };
 
 window.onload = () => {
+  addStyleSheet("css/bootstrap.css");
   addStyleSheet("css/animate.css");
   addStyleSheet("css/owl.carousel.css");
   addStyleSheet("css/owl.transitions.css");
